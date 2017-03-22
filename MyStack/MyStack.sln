@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyStack", "MyStack\MyStack.vcxproj", "{51C2DB66-CF1C-402D-924C-F06CC1A1BB5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest", "googletest\googletest.vcxproj", "{C2E4D017-AD1B-4448-9D80-750F840992C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unittest_MyStack", "unittest_MyStack\unittest_MyStack.vcxproj", "{B4A85C40-91CE-4288-9F75-16219B2F8F89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C2DB66-CF1C-402D-924C-F06CC1A1BB5D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{51C2DB66-CF1C-402D-924C-F06CC1A1BB5D}.Debug|Win32.Build.0 = Debug|Win32
+		{51C2DB66-CF1C-402D-924C-F06CC1A1BB5D}.Release|Win32.ActiveCfg = Release|Win32
+		{51C2DB66-CF1C-402D-924C-F06CC1A1BB5D}.Release|Win32.Build.0 = Release|Win32
+		{C2E4D017-AD1B-4448-9D80-750F840992C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2E4D017-AD1B-4448-9D80-750F840992C5}.Debug|Win32.Build.0 = Debug|Win32
+		{C2E4D017-AD1B-4448-9D80-750F840992C5}.Release|Win32.ActiveCfg = Release|Win32
+		{C2E4D017-AD1B-4448-9D80-750F840992C5}.Release|Win32.Build.0 = Release|Win32
+		{B4A85C40-91CE-4288-9F75-16219B2F8F89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B4A85C40-91CE-4288-9F75-16219B2F8F89}.Debug|Win32.Build.0 = Debug|Win32
+		{B4A85C40-91CE-4288-9F75-16219B2F8F89}.Release|Win32.ActiveCfg = Release|Win32
+		{B4A85C40-91CE-4288-9F75-16219B2F8F89}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

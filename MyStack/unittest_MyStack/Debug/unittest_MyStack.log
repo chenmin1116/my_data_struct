@@ -1,0 +1,34 @@
+﻿生成启动时间为 2017/3/20 18:47:17。
+     1>项目“F:\MyStack\unittest_MyStack\unittest_MyStack.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\unittest_MyStack.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\unittest_MyStack.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\vs2010\VC\bin\CL.exe /c /I".\..\googletest\googletest-release-1.6.0\include" /I.\..\MyStack /I".\..\googletest\googletest-release-1.6.0" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt unittest_MyStack.cpp
+         unittest_MyStack.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\unittest_MyStack.exe.embed.manifest.res" Debug\unittest_MyStack_manifest.rc 
+       Link:
+         e:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyStack\Debug\unittest_MyStack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\unittest_MyStack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\MyStack\Debug\unittest_MyStack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyStack\Debug\unittest_MyStack.lib" /MACHINE:X86 Debug\unittest_MyStack.exe.embed.manifest.res
+         Debug\unittest_MyStack.obj
+         F:\MyStack\Debug\googletest.lib
+         F:\MyStack\Debug\MyStack.lib
+       Manifest:
+         正在删除文件“Debug\unittest_MyStack.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\unittest_MyStack.exe.embed.manifest" /manifest Debug\unittest_MyStack.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\unittest_MyStack.exe.embed.manifest.res" Debug\unittest_MyStack_manifest.rc 
+       LinkEmbedManifest:
+         e:\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\MyStack\Debug\unittest_MyStack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\unittest_MyStack.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\MyStack\Debug\unittest_MyStack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\MyStack\Debug\unittest_MyStack.lib" /MACHINE:X86 Debug\unittest_MyStack.exe.embed.manifest.res
+         Debug\unittest_MyStack.obj
+         F:\MyStack\Debug\googletest.lib
+         F:\MyStack\Debug\MyStack.lib
+         unittest_MyStack.vcxproj -> F:\MyStack\Debug\unittest_MyStack.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\unittest_MyStack.unsuccessfulbuild”。
+         正在对“Debug\unittest_MyStack.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\MyStack\unittest_MyStack\unittest_MyStack.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.00
